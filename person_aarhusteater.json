@@ -1,8 +1,8 @@
 {
     "id": "https://almanak.github.io/schemas/person_aarhusteater.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "Person",
-    "description": "En person-entitet",
+    "title": "Person ved Aarhus Teater",
+    "description": "En specifik person-type",
     "allOf": [
         {
             "$ref": "https://almanak.github.io/schemas/person.json"
@@ -11,6 +11,7 @@
             "properties": {
                 "ext_data": {
                     "type": "object",
+                    "title": "Udvidet metadata"
                     "properties": {
                         "original_id": {
                             "type": "string",
