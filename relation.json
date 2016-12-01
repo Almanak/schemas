@@ -5,7 +5,7 @@
     "description": "Skema for relationer. Udvidelse af base.json",
     "allOf": [
         {
-            "$ref": "base.json"
+            "$ref": "https://github.com/Almanak/schemas/base.json"
         },
         {
             "properties": {
