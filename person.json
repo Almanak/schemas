@@ -1,11 +1,11 @@
 {
-    "id": "https://github.com/Almanak/schemas/person.json",
+    "id": "https://almanak.github.io/schemas/person.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Person",
     "description": "En person-entitet",
     "allOf": [
         {
-            "$ref": "https://github.com/Almanak/schemas/resource.json"
+            "$ref": "https://almanak.github.io/schemas/resource.json"
         },
         {
             "required": ["lastnames", "gender"],
