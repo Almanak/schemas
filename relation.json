@@ -2,10 +2,10 @@
     "id": "https://almanak.github.io/schemas/relation.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Relation",
-    "description": "Skema for relationer. Udvidelse af _base.json",
+    "description": "Skema for relationer. Udvidelse af base.json",
     "allOf": [
         {
-            "$ref": "_base.json"
+            "$ref": "base.json"
         },
         {
             "properties": {
