@@ -51,7 +51,8 @@
         "status": {
             "type": "string",
             "enum": ["validated", "machine-generated", "user-generated"],
-            "title": "Status"
+            "title": "Status",
+            "default": "user-generated"
         }
     }
 }
