@@ -63,7 +63,8 @@
                 "gender": {
                     "type": "string",
                     "enum": ["mand", "kvinde", "ukendt"],
-                    "title": "Køn"
+                    "title": "Køn",
+                    "description": "Selvforklarende"
                 },
                 "occupation": {
                     "type": "array",
