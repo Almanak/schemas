@@ -8,6 +8,7 @@
             "$ref": "resource.json"
         },
         {
+            "required": ["lastnames", "gender"],
             "properties": {
                 "display_name": {
                     "type": "string",
