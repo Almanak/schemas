@@ -94,7 +94,7 @@
             "type": "string",
             "maxLength": 255,
             "title": "Dødssted"
-        }
+        },
         "ext_data": {
             "type": "object",
             "title": "Udvidet metadata",
