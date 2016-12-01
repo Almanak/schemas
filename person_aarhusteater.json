@@ -3,7 +3,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Person ved Aarhus Teater",
     "description": "En specifik person-type",
-    "type": "object,
+    "type": "object",
     "required": ["lastnames", "gender"],
     "properties": {
         "display_name": {
