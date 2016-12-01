@@ -11,18 +11,21 @@
             "properties": {
                 "ext_data": {
                     "type": "object",
-                    "title": "Udvidet metadata"
+                    "title": "Udvidet metadata",
                     "properties": {
                         "original_id": {
                             "type": "string",
+                            "maxLength": 255,
                             "title": "Originalt ID"
                         },
                         "place_of_education": {
                             "type": "string",
+                            "maxLength": 255,
                             "title": "Uddannelsessted"
                         },
                         "year_of_graduation": {
                             "type": "string",
+                            "pattern": "\d{4}",
                             "title": "Uddannelsesår"
                         }
                     }
