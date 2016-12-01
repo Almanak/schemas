@@ -1,0 +1,32 @@
+{
+    "id": "https://almanak.github.io/schemas/person_aarhusteater.json",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Person",
+    "description": "En person-entitet",
+    "allOf": [
+        {
+            "$ref": "https://almanak.github.io/schemas/person.json"
+        },
+        {
+            "properties": {
+                "ext_data": {
+                    "type": "object",
+                    "properties": {
+                        "original_id": {
+                            "type": "string",
+                            "title": "Originalt ID"
+                        },
+                        "place_of_education": {
+                            "type": "string",
+                            "title": "Uddannelsessted"
+                        },
+                        "year_of_graduation": {
+                            "type": "string",
+                            "title": "Uddannelsesår"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
