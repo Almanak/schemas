@@ -1,5 +1,5 @@
 {
-    "id": "https://almanak.github.io/schemas/_base.json",
+    "id": "https://almanak.github.io/schemas/base.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Base-skema",
     "description": "Basis-skema for ALT",
