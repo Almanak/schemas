@@ -1,5 +1,5 @@
 {
-    "id": "https://almanak.github.io/schemas/_resource.json",
+    "id": "https://almanak.github.io/schemas/resource.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Resource",
     "_indexedProperties": ["uuid", "resourcetype", "resourceid"],
