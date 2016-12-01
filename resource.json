@@ -6,17 +6,23 @@
     "_fulltextProperties": ["description"],
     "_autocompleteProperties": ["label"],
     "description": "Basis-skema for alle ressourcer. Udvidelse af base.json",
-    "type": "object",
-    "properties": {
-    	"type": {
-    		"type": "string",
-    		"enum": ["record", "person", "organisation", "family", "event", "place", "concept", "thing"],
-    		"title": "Resourcetype"
-   		},
-    	"skema": {
-    		"type": "string",
-    		"title": "Skema",
-    		"description": "Hvilket jsonskema bruges til oprettelse, opdatering og validering af denne ressource"
-   		}
-    }
+    "allOf": [
+        {
+            "$ref": "base.json"
+        },
+        {
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": ["record", "person", "organisation", "family", "event", "place", "concept", "thing"],
+                    "title": "Resourcetype"
+                },
+                "skema": {
+                    "type": "string",
+                    "title": "Skema",
+                    "description": "Hvilket jsonskema bruges til oprettelse, opdatering og validering af denne ressource"
+                }
+            }
+        }
+    ]
 }
