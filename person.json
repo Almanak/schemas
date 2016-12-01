@@ -5,7 +5,7 @@
     "description": "En person-entitet",
     "allOf": [
         {
-            "$ref": "resource.json"
+            "$ref": "https://github.com/Almanak/schemas/resource.json"
         },
         {
             "required": ["lastnames", "gender"],
