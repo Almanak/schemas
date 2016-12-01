@@ -10,7 +10,7 @@
             "title": "Universal unique identifier",
             "description": "UUID1. Assigned by system",
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
-            "readonly": true
+            "_readonly": true
         },
         "id": {
             "type": "string",
@@ -18,35 +18,35 @@
             "description": "9-cifret løbenummer semi-specifik for resourcetypen. Assigned by system",
             "maxLength": 9,
             "pattern": "^[0-9]{9}$",
-            "readonly": true
+            "_readonly": true
         },
         "created": {
             "type": "string",
             "format": "date-time",
             "title": "Skabt",
             "description": "Datetime for skabelse af metadata-ressourcen",
-            "readonly": true
+            "_readonly": true
         },
         "created_by": {
             "type": "string",
             "maxLength": 255,
             "title": "Skabt af",
             "description": "Brugernavn/ID på skaber/oploader af metadata-ressourcen",
-            "readonly": true
+            "_readonly": true
         },
         "updated": {
             "type": "string",
             "format": "date-time",
             "title": "Senest opdateret",
             "description": "Datetime for seneste opdatering af ressourcen",
-            "readonly": true
+            "_readonly": true
         },
         "updated_by": {
             "type": "string",
             "maxLength": 255,
             "title": "Senest opdateret af",
             "description": "Brugernavn på seneste opdaterer af metadata-ressourcen",
-            "readonly": true
+            "_readonly": true
         },
         "status": {
             "type": "string",
