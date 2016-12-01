@@ -8,7 +8,7 @@
     "description": "Basis-skema for alle ressourcer. Udvidelse af base.json",
     "allOf": [
         {
-            "$ref": "base.json"
+            "$ref": "https://github.com/Almanak/schemas/base.json"
         },
         {
             "properties": {
