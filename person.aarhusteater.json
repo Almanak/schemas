@@ -11,7 +11,7 @@
             "enum": ["record", "person", "organisation", "family", "event", "place", "concept", "thing"],
             "title": "Resourcetype"
         },
-        "skema": {
+        "schema": {
             "type": "string",
             "title": "Skema",
             "description": "Hvilket jsonskema bruges til oprettelse, opdatering og validering af denne ressource"
