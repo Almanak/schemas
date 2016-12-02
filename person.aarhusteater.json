@@ -9,8 +9,67 @@
             "$ref": "https://almanak.github.io/schemas/resource.json"
         },
         {
-            "required": ["lastnames", "gender"],
+            "required": ["type", "schema", "lastnames", "gender"],
             "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": ["record", "person", "organisation", "family", "event", "place", "concept", "thing"],
+                    "title": "Resourcetype"
+                },
+                "skema": {
+                    "type": "string",
+                    "title": "Skema",
+                    "description": "Hvilket jsonskema bruges til oprettelse, opdatering og validering af denne ressource"
+                },
+                "uuid": {
+                    "type": "string",
+                    "title": "Universal unique identifier",
+                    "description": "UUID1. Assigned by system",
+                    "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+                    "_readonly": true
+                },
+                "id": {
+                    "type": "string",
+                    "title": "Resourcespecifik ID",
+                    "description": "9-cifret løbenummer semi-specifik for resourcetypen. Assigned by system",
+                    "maxLength": 9,
+                    "pattern": "^[0-9]{9}$",
+                    "_readonly": true
+                },
+                "created": {
+                    "type": "string",
+                    "format": "date-time",
+                    "title": "Skabt",
+                    "description": "Datetime for skabelse af metadata-ressourcen",
+                    "_readonly": true
+                },
+                "created_by": {
+                    "type": "string",
+                    "maxLength": 255,
+                    "title": "Skabt af",
+                    "description": "Brugernavn/ID på skaber/oploader af metadata-ressourcen",
+                    "_readonly": true
+                },
+                "updated": {
+                    "type": "string",
+                    "format": "date-time",
+                    "title": "Senest opdateret",
+                    "description": "Datetime for seneste opdatering af ressourcen",
+                    "_readonly": true
+                },
+                "updated_by": {
+                    "type": "string",
+                    "maxLength": 255,
+                    "title": "Senest opdateret af",
+                    "description": "Brugernavn på seneste opdaterer af metadata-ressourcen",
+                    "_readonly": true
+                },
+                "status": {
+                    "type": "string",
+                    "enum": ["validated", "machine-generated", "user-generated"],
+                    "title": "Status",
+                    "default": "user-generated"
+                },
                 "display_name": {
                     "type": "string",
                     "maxLength": 255,
