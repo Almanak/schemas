@@ -9,23 +9,20 @@
             "type": "string",
             "title": "Universal unique identifier",
             "description": "UUID1. Assigned by system",
-            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
-            "_readonly": true
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
         },
         "id": {
             "type": "string",
             "title": "Resourcespecifik ID",
             "description": "9-cifret løbenummer semi-specifik for resourcetypen. Assigned by system",
             "maxLength": 9,
-            "pattern": "^[0-9]{9}$",
-            "_readonly": true
+            "pattern": "^[0-9]{9}$"
         },
         "created": {
             "type": "string",
             "format": "date-time",
             "title": "Skabt",
-            "description": "Datetime for skabelse af metadata-ressourcen",
-            "_readonly": true
+            "description": "Datetime for skabelse af metadata-ressourcen"
         },
         "created_by": {
             "type": "string",
