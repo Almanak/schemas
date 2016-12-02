@@ -2,14 +2,14 @@
     "id": "https://almanak.github.io/schemas/resource.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Resource",
+    "description": "Basis-skema for alle ressourcer. Udvidelse af base.json",
     "_meta": {
         "_indexedProperties": ["uuid", "resourcetype", "resourceid"],
         "_fulltextProperties": ["description"],
         "_autocompleteProperties": ["label"],
         "_readonly": [],
         "_propertyViewOrder": []
-    }
-    "description": "Basis-skema for alle ressourcer. Udvidelse af base.json",
+    },
     "allOf": [
         {
             "$ref": "https://almanak.github.io/schemas/base.json"
