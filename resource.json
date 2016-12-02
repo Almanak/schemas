@@ -3,12 +3,14 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Resource",
     "description": "Basis-skema for alle ressourcer. Udvidelse af base.json",
-    "_meta": {
-        "_indexedProperties": ["uuid", "resourcetype", "resourceid"],
-        "_fulltextProperties": ["description"],
-        "_autocompleteProperties": ["label"],
-        "_readonly": [],
-        "_propertyViewOrder": []
+    "_index": {
+        "facetProperties": ["uuid",  "id", "type", "schema"],
+        "fulltextProperties": ["description"],
+        "autocompleteProperties": ["label"],
+    },
+    "_view": {
+        "propertyOrder": [""],
+        "readonly": ["type", "schema"]
     },
     "allOf": [
         {
@@ -21,7 +23,7 @@
                     "enum": ["record", "person", "organisation", "family", "event", "place", "concept", "thing"],
                     "title": "Resourcetype"
                 },
-                "skema": {
+                "schema": {
                     "type": "string",
                     "title": "Skema",
                     "description": "Hvilket jsonskema bruges til oprettelse, opdatering og validering af denne ressource"
