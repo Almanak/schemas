@@ -18,6 +18,16 @@
             "maxLength": 9,
             "pattern": "^[0-9]{9}$"
         },
+        "domain": {
+            "type": "string",
+            "enum": ["records", "people", "organisations", "families", "events", "places", "concepts", "things"],
+            "title": "Resourcetype"
+        },
+        "schema": {
+            "type": "string",
+            "title": "Skema",
+            "description": "Hvilket jsonskema bruges til oprettelse, visning, opdatering og validering af denne ressource"
+        },
         "created": {
             "type": "string",
             "format": "date-time",
