@@ -4,20 +4,21 @@
     "title": "Person",
     "description": "En person-entitet",
     "_meta": {
-        "_facetProperties": ["uuid", "resourcetype", "resourceid"],
-        "_fulltextProperties": ["description"],
-        "_autocompleteProperties": ["label"],
-        "_readOnly": [],
-        "_viewOrder": []
+        "fulltextProperties": ["description"],
+        "autocompleteProperties": ["label"],
+        "orderOfProperties": [
+            "label", "firstnames", "birthname", "lastnames", "gender", "occupation", "sources", "date_of_birth",
+            "place_of_birth", "date_of_death", "place_of_death", "description", "sources", "portrait"
+        ]
     },
     "allOf": [
         {
-            "$ref": "https://almanak.github.io/schemas/resource.json"
+            "$ref": "https://almanak.github.io/schemas/base.json"
         },
         {
             "required": ["lastnames", "gender"],
             "properties": {
-                "display_name": {
+                "label": {
                     "type": "string",
                     "maxLength": 255,
                     "title": "Displaynavn",
