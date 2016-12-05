@@ -6,7 +6,7 @@
     "type": "object",
     "allOf": [
         {
-            "$ref": 'https://almanak.github.io/schemas/people.json'
+            "$ref": "https://almanak.github.io/schemas/people.json"
         },
         {
             "properties": {
