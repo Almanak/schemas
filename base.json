@@ -2,8 +2,14 @@
     "id": "https://almanak.github.io/schemas/base.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Base-skema",
-    "description": "Basis-skema for ALT",
+    "description": "Basis-schema for all resources. Do not use on its own. Extended by domain-schemas.",
     "type": "object",
+    "_meta": {
+        "indexedProperties": ["id", "domain", "schema"],
+        "immutableProperties": ["uuid", "id", "domain", "schema", "created", "created_by", "updated", "updated_by"],
+        "fulltextProperties": ["description"],
+        "autocompleteProperties": ["label"]
+    },
     "properties": {
         "uuid": {
             "type": "string",
