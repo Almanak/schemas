@@ -4,26 +4,28 @@
     "title": "Person ved Aarhus Teater",
     "description": "En specifik person-type",
     "type": "object",
-    "allOf": {
-        "$ref": 'https://almanak.github.io/schemas/people.json'
+    "allOf": [
+        {
+            "$ref": 'https://almanak.github.io/schemas/people.json'
         },
         {
-        "properties": {
-            "original_id": {
-                "type": "string",
-                "maxLength": 255,
-                "title": "Originalt ID"
-            },
-            "place_of_education": {
-                "type": "string",
-                "maxLength": 255,
-                "title": "Uddannelsessted"
-            },
-            "year_of_graduation": {
-                "type": "string",
-                "pattern": "^[0-9]{4}$",
-                "title": "Uddannelsesår"
+            "properties": {
+                "original_id": {
+                    "type": "string",
+                    "maxLength": 255,
+                    "title": "Originalt ID"
+                },
+                "place_of_education": {
+                    "type": "string",
+                    "maxLength": 255,
+                    "title": "Uddannelsessted"
+                },
+                "year_of_graduation": {
+                    "type": "string",
+                    "pattern": "^[0-9]{4}$",
+                    "title": "Uddannelsesår"
+                }
             }
         }
-    }
+    ]
 }
