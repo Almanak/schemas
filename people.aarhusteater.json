@@ -10,20 +10,25 @@
         },
         {
             "properties": {
-                "original_id": {
-                    "type": "string",
-                    "maxLength": 255,
-                    "title": "Originalt ID"
-                },
-                "place_of_education": {
-                    "type": "string",
-                    "maxLength": 255,
-                    "title": "Uddannelsessted"
-                },
-                "year_of_graduation": {
-                    "type": "string",
-                    "pattern": "^[0-9]{4}$",
-                    "title": "Uddannelsesår"
+                "ext_data": {
+                    "type": "objekt",
+                    "properties": {
+                        "original_id": {
+                            "type": "string",
+                            "maxLength": 255,
+                            "title": "Originalt ID"
+                        },
+                        "place_of_education": {
+                            "type": "string",
+                            "maxLength": 255,
+                            "title": "Uddannelsessted"
+                        },
+                        "year_of_graduation": {
+                            "type": "string",
+                            "pattern": "^[0-9]{4}$",
+                            "title": "Uddannelsesår"
+                        }
+                    }
                 }
             }
         }
