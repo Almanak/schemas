@@ -4,10 +4,10 @@
     "title": "Relation",
     "description": "Skema for relationer.",
     "_meta": {
-        "indexedProperties": ["id", "subject_id", "subject_type"],
-        "immutableProperties": ["uuid", "id", "domain", "schema", "created", "created_by", "updated", "updated_by"],
-        "fulltextProperties": ["description"],
-        "autocompleteProperties": ["label"]
+        "indexedProperties": ["id", "subject_id", "subject_domain", "object_id", "object_domain", "from_date", "to_date"],
+        "systemProperties": ["uuid", "id", "subject_id", "subject_domain", "created", "created_by", "updated", "updated_by"],
+        "fulltextProperties": [],
+        "autocompleteProperties": []
     },
     "properties": {
         "uuid": {
