@@ -10,8 +10,8 @@
         "fulltextProperties": ["description"],
         "autocompleteProperties": ["label"],
         "viewProperties": [
-            "label", "firstnames", "birthname", "lastnames", "gender", "occupation", "sources", "date_of_birth",
-            "place_of_birth", "date_of_death", "place_of_death", "description", "sources", "portrait", "ext_data"
+            "label", "firstnames", "birthname", "lastnames", "gender", "occupation", "sources", "from_date",
+            "place_of_birth", "to_date", "place_of_death", "description", "sources", "portrait", "ext_data"
         ]
     },
     "required": [],
