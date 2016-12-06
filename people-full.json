@@ -14,7 +14,7 @@
             "place_of_birth", "date_of_death", "place_of_death", "description", "sources", "portrait", "ext_data"
         ]
     },
-    "required": ["domain", ],
+    "required": [],
     "properties": {
         "uuid": {
             "type": "string",
