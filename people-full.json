@@ -1,6 +1,7 @@
 {
     "id": "https://almanak.github.io/schemas/people-total.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "people",
     "description": "Basis-schema for all resources. Do not use on its own. Extended by domain-schemas.",
     "type": "object",
     "_meta": {
@@ -27,12 +28,13 @@
         "domain": {
             "type": "string",
             "enum": ["records", "people", "organisations", "families", "events", "places", "concepts", "things"],
-            "title": "Resourcetype"
+            "title": "Resourcetype",
+            "description": "Sættes kun når der vælges skema til oprettelse. Ellers fastsat."
         },
         "schema": {
             "type": "string",
             "title": "Skema",
-            "description": "Hvilket jsonskema bruges til oprettelse, visning, opdatering og validering af denne ressource"
+            "description": "Sæætes kun når der vælges skema til oprettelse. Ellers fastsat."
         },
         "created": {
             "type": "string",
