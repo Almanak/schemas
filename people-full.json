@@ -5,10 +5,14 @@
     "description": "Basis-schema for all resources. Do not use on its own. Extended by domain-schemas.",
     "type": "object",
     "_meta": {
-        "indexedProperties": ["id", "domain", "schema"],
+        "indexProperties": ["id", "domain", "schema"],
         "systemProperties": ["uuid", "id", "domain", "schema", "created", "created_by", "updated", "updated_by"],
         "fulltextProperties": ["description"],
-        "autocompleteProperties": ["label"]
+        "autocompleteProperties": ["label"],
+        "viewProperties": [
+            "label", "firstnames", "birthname", "lastnames", "gender", "occupation", "sources", "date_of_birth",
+            "place_of_birth", "date_of_death", "place_of_death", "description", "sources", "portrait", "ext_data"
+        ]
     },
     "required": ["domain", ],
     "properties": {
