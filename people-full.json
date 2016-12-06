@@ -1,7 +1,6 @@
 {
-    "id": "https://almanak.github.io/schemas/base.json",
+    "id": "https://almanak.github.io/schemas/people-total.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "Base-skema",
     "description": "Basis-schema for all resources. Do not use on its own. Extended by domain-schemas.",
     "type": "object",
     "_meta": {
@@ -10,6 +9,7 @@
         "fulltextProperties": ["description"],
         "autocompleteProperties": ["label"]
     },
+    "required": ["domain", ],
     "properties": {
         "uuid": {
             "type": "string",
