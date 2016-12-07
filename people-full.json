@@ -185,19 +185,19 @@
                     "type": "string",
                     "maxLength": 255,
                     "title": "Originalt ID",
-                    "_propertyOrder": 5000
+                    "_propertyOrder": 14
                 },
                 "place_of_education": {
                     "type": "string",
                     "maxLength": 255,
                     "title": "Uddannelsessted",
-                    "_propertyOrder": 5000
+                    "_propertyOrder": 15
                 },
                 "year_of_graduation": {
                     "type": "string",
                     "pattern": "^[0-9]{4}$",
                     "title": "Uddannelsesår",
-                    "_propertyOrder": 5000
+                    "_propertyOrder": 16
                 }
             },
             "_propertyOrder": 12
