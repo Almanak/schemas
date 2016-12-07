@@ -5,7 +5,7 @@
     "description": "Basis-schema for all resources. Do not use on its own. Extended by domain-schemas.",
     "type": "object",
     "_meta": {
-        "indexProperties": ["id", "domain", "schema", "from_date", "to_date"],
+        "indexProperties": ["id", "domain", "schema", "occupation", "from_date", "to_date"],
         "systemProperties": ["uuid", "id", "domain", "schema", "created", "created_by", "updated", "updated_by", "status"],
         "fulltextProperties": ["description"],
         "autocompleteProperties": ["label"]
