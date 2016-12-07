@@ -11,7 +11,8 @@
         "autocompleteProperties": ["label"],
         "viewProperties": [
             "label", "firstnames", "birthname", "lastnames", "gender", "occupation", "sources", "from_date",
-            "place_of_birth", "to_date", "place_of_death", "description", "sources", "portrait", "ext_data"
+            "place_of_birth", "to_date", "place_of_death", "description", "sources", "portrait", "ext_data",
+            "original_id", "year_of_graduation", "place_of_education"
         ]
     },
     "required": [],
