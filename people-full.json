@@ -163,7 +163,7 @@
             "title": "Dødssted"
         },
         "ext_data": {
-            "type": "objekt",
+            "type": "object",
             "properties": {
                 "original_id": {
                     "type": "string",
