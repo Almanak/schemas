@@ -199,6 +199,14 @@
                 }
             },
             "_propertyOrder": 12
+        },
+        "relations": {
+            "type": "array",
+            "title": "Relationer",
+            "items": {
+                "$ref": "https://almanak.github.io/schemas/relation.json"
+            },
+            "_propertyOrder": 16
         }
     }
 }
