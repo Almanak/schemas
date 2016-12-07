@@ -164,6 +164,7 @@
         },
         "ext_data": {
             "type": "object",
+            "title": "Udvided metedata",
             "properties": {
                 "original_id": {
                     "type": "string",
