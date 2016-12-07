@@ -141,6 +141,7 @@
         },
         "occupation": {
             "type": "array",
+            "description": "Bør være en brance-betegnelse fra DB07",
             "items": {
                 "type": "string",
                 "maxLength": 255
