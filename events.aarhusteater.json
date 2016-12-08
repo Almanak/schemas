@@ -123,6 +123,18 @@
                     "type": "string",
                     "title": "Scene"
                 },
+                "composer": {
+                    "type": "string",
+                    "title": "Komponist"
+                },
+                "translater": {
+                    "type": "string",
+                    "title": "Oversætter"
+                },
+                "publisher": {
+                    "type": "string",
+                    "title": "Udgiver"
+                },
                 "programme": {
                     "type": "boolean,
                     "title": "Program",
