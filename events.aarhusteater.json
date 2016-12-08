@@ -10,7 +10,6 @@
         "fulltextProperties": ["description"],
         "autocompleteProperties": ["label"]
     },
-    "required": ["lastnames", "gender"],
     "properties": {
         "uuid": {
             "type": "string",
