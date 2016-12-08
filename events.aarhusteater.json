@@ -116,7 +116,7 @@
                     "title": "Originalt ID"
                 },
                 "poster": {
-                    "type": "boolean,
+                    "type": "boolean",
                     "title": "Plakat",
                 },
                 "stagename": {
@@ -136,7 +136,7 @@
                     "title": "Udgiver"
                 },
                 "programme": {
-                    "type": "boolean,
+                    "type": "boolean",
                     "title": "Program",
                 },
                 "season": {
