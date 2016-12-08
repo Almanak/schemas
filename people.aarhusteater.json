@@ -1,8 +1,8 @@
 {
-    "id": "https://almanak.github.io/schemas/people-total.json",
+    "id": "https://almanak.github.io/schemas/people.aarhusteater.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "people",
-    "description": "Basis-schema for all resources. Do not use on its own. Extended by domain-schemas.",
+    "title": "people.aarhusteater",
+    "description": "Schema for all personnel resources at Aarhus Teater.",
     "type": "object",
     "_meta": {
         "indexProperties": ["id", "domain", "schema", "occupation", "from_date", "to_date"],
