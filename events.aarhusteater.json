@@ -117,7 +117,7 @@
                 },
                 "poster": {
                     "type": "boolean",
-                    "title": "Plakat",
+                    "title": "Plakat"
                 },
                 "stagename": {
                     "type": "string",
@@ -137,7 +137,7 @@
                 },
                 "programme": {
                     "type": "boolean",
-                    "title": "Program",
+                    "title": "Program"
                 },
                 "season": {
                     "type": "string",
