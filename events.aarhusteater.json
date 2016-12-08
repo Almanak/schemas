@@ -78,11 +78,7 @@
             "title": "Beskrivelse"
         },
         "sources": {
-            "type": "array",
-            "items": {
-                "type": "string",
-                "maxLength": 255
-            },
+            "type": "string",
             "title": "Kilder",
             "description": "URL-links eller enkeltlinje referencer"
         },
