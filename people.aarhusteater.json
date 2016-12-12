@@ -34,7 +34,7 @@
         "schema": {
             "type": "string",
             "title": "Skema",
-            "description": "Sæætes kun når der vælges skema til oprettelse. Ellers fastsat."
+            "description": "Sættes kun når der vælges skema til oprettelse. Ellers fastsat."
         },
         "created": {
             "type": "string",
