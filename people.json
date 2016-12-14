@@ -5,6 +5,7 @@
         "systemProperties": ["one", "two"]
     },
     "required": ["lastnames", "gender"],
+    "additionalProperties": true,
     "properties": {
         "label": {
             "type": "string",
