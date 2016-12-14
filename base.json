@@ -44,22 +44,19 @@
             "type": "string",
             "maxLength": 255,
             "title": "Skabt af",
-            "description": "Brugernavn/ID på skaber/oploader af metadata-ressourcen",
-            "_readonly": true
+            "description": "Brugernavn/ID på skaber/oploader af metadata-ressourcen"
         },
         "updated": {
             "type": "string",
             "format": "date-time",
             "title": "Senest opdateret",
-            "description": "Datetime for seneste opdatering af ressourcen",
-            "_readonly": true
+            "description": "Datetime for seneste opdatering af ressourcen"
         },
         "updated_by": {
             "type": "string",
             "maxLength": 255,
             "title": "Senest opdateret af",
-            "description": "Brugernavn på seneste opdaterer af metadata-ressourcen",
-            "_readonly": true
+            "description": "Brugernavn på seneste opdaterer af metadata-ressourcen"
         },
         "status": {
             "type": "string",
