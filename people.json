@@ -3,7 +3,7 @@
     "description": "En person-entitet",
     "_meta": {
         "systemProperties": ["one", "two"]
-    }
+    },
     "required": ["lastnames", "gender"],
     "properties": {
         "label": {
