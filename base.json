@@ -6,7 +6,7 @@
     "type": "object",
     "_meta": {
         "indexedProperties": ["id", "domain", "schema"],
-        "immutableProperties": ["uuid", "id", "domain", "schema", "created", "created_by", "updated", "updated_by"],
+        "systemProperties": ["uuid", "id", "domain", "schema", "created", "created_by", "updated", "updated_by"],
         "fulltextProperties": ["description"],
         "autocompleteProperties": ["label"]
     },
