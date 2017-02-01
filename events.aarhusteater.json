@@ -64,6 +64,12 @@
             "title": "Status",
             "default": "user-generated"
         },
+        "name": {
+            "type": "string",
+            "maxLength": 255,
+            "title": "Forestillingsnavn",
+            "description": "Navnet på forestillingen (uden årstal)"
+        },
         "display_label": {
             "type": "string",
             "maxLength": 255,
