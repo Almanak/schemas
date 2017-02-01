@@ -92,13 +92,13 @@
             "format": "uri",
             "title": "Portræt"
         },
-        "from_date": {
+        "date_from": {
             "type": "string",
             "format": "date",
             "title": "Fødselsdato (åååå-mm-dd)",
             "pattern": "^([0-9]{4})(-([0-9]{2}))?(-([0-9]{2}))?$"
         },
-        "to_date": {
+        "date_to": {
             "type": "string",
             "format": "date",
             "title": "Dødsdato (åååå-mm-dd)",
